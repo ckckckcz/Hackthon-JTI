@@ -4,7 +4,7 @@ export default function Section(){
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
             <div className="flex flex-col justify-center">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Mari mencapai gemilang presatasi bersama !</h1>
-                <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Kami berkomitmen untuk terus berinovasi dan menciptakan prestasi baru yang bermanfaat bagi masyarakat. Mari kita sambut bulan depan dengan semangat yang lebih tinggi dan pencapaian yang lebih gemilang!</p>
+                <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Kami berkomitmen untuk terus berinovasi dan menciptakan prestasi baru yang bermanfaat bagi Indonesia.</p>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
                     <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                         Prestasi lainnya
@@ -15,72 +15,37 @@ export default function Section(){
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
                     <a href="#">
                         <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                     </a>
-                    <div className="p-5">
-                        <a href="#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Mahasiswa Politeknik Negeri Malang meraih 3 penghargaan di Manggarai Barat.</h5>
-                        </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">diselenggarakan di Aula Kantor Dinas Kantor Kepemudaan dan Olahraga Kabupaten Manggarai Barat pada 6-7 Oktober 2024</p>
-                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-                    </a>
-                    <div className="p-5">
+                    <div className="p-5 flex-grow">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mahasiswa Politeknik Negeri Malang meraih 4 penghargaan di Comppfest 16.</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Ajang tahunan terbesar yang diselenggarakan oleh Fakultas Ilmu Komputer UI dan di tahun 2024</p>
                         <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
+                            Baca Artikel
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                             </svg>
                         </a>
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
                     <a href="#">
                         <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                     </a>
-                    <div className="p-5">
+                    <div className="p-5 flex-grow">
                         <a href="#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mahasiswa Politeknik Negeri Malang meraih penghargaan di Gemastik</h5>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mahasiswa Politeknik Negeri Malang meraih 4 penghargaan di Comppfest 16.</h5>
                         </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Gemastik merupakan kompetisi nasional tahunan di bidang (TIK)
-                        yang diselenggarakan oleh Pusat Prestasi Nasional (PUSPRESNAS)</p>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Ajang tahunan terbesar yang diselenggarakan oleh Fakultas Ilmu Komputer UI dan di tahun 2024</p>
                         <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
+                            Baca Artikel
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <a href="#">
-                        <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-                    </a>
-                    <div className="p-5">
-                        <a href="#">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mahasiswa Politeknik Negeri Malang meraih penghargaan di National PLC</h5>
-                        </a>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">National PLC diselenggarakan oleh Universitas Muhammadiyah Tangerang, Banten tanggal 15 September 2024.</p>
-                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Read more
-                            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                             </svg>
                         </a>
                     </div>
