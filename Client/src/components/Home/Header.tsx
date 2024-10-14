@@ -5,9 +5,9 @@ import threePeople from "../../assets/img/3people.png";
 
 export default function Header() {
   return (
-    <section className="bg-white dark:bg-gray-900 flex items-center justify-center" style={{ height: "500px" }}>
+    <section className="bg-white dark:bg-gray-900 flex justify-left items-left lg:items-center lg:justify-center" style={{ height: "500px" }}>
       <div className="py-8 px-4 text-center mx-auto max-w-screen-xl">
-        <div className="flex -space-x-4 rtl:space-x-reverse justify-center items-center mb-4">
+        <div className="flex -space-x-4 rtl:space-x-reverse items-left justify-left lg:justify-center lg:items-center mb-4">
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user1} alt="" />
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user2} alt="" />
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user3} alt="" />
@@ -15,14 +15,16 @@ export default function Header() {
             <a className="flex items-center justify-center w-10 h-10 text-xs font-bold text-white bg-red-600 border-2 border-white rounded-full hover:bg-red-600 dark:border-gray-800" href="#">
               +99
             </a>
-            <span className="ml-2 text-md font-bold text-black dark:text-gray-300">Pelanggan Puas</span>
+            <span className="ml-2 text-md font-bold text-black dark:text-gray-300 lg:text-center text-left">Pelanggan Puas</span>
           </div>
         </div>
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white lg:text-center text-left">
           Bersama Kami, Anda Tidak Sendirian dalam Menghadapi Masalah <span className="text-red-700">Hukum</span>
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl lg:px-48 dark:text-gray-400">Kami menawarkan layanan hukum di berbagai bidang, termasuk hukum keluarga, hukum bisnis, hukum pidana, dan banyak lagi.</p>
-        <div className="flex justify-center space-x-4 mb-8">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl lg:px-48 dark:text-gray-400 lg:text-center text-left">
+          Kami menawarkan layanan hukum di berbagai bidang, termasuk hukum keluarga, hukum bisnis, hukum pidana, dan banyak lagi.
+        </p>
+        <div className="flex justify-left lg:justify-center space-x-4 mb-8">
           <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
             Konsultasi
             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
