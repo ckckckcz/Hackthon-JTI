@@ -6,7 +6,17 @@ import threePeople from "../../assets/img/3people.png";
 export default function Header() {
   return (
     <section className="bg-white dark:bg-gray-900 flex justify-left items-left lg:items-center lg:justify-center" style={{ height: "500px" }}>
-      <div className="py-8 px-4 text-center mx-auto max-w-screen-xl">
+      <div className="py-8 px-4 text-center mx-auto max-w-screen-xl relative">
+        <style>{`
+          .threePeople{
+            margin-top: 665px;
+          }
+            @media(max-width: 767px){
+              .threePeople{
+                margin-top:545px;
+              }
+            }
+        `}</style>
         <div className="flex -space-x-4 rtl:space-x-reverse items-left justify-left lg:justify-center lg:items-center mb-4">
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user1} alt="" />
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user2} alt="" />
@@ -37,9 +47,10 @@ export default function Header() {
           >
             LegalMind
           </a>
-          <div className="absolute flex justify-center items-center mt-10">
-            <img className="h-auto filter grayscale" src={threePeople} alt="" />
-          </div>
+        </div>
+        {/* Gambar dengan posisi absolute untuk meratakannya di tengah */}
+        <div className="absolute inset-0 flex justify-center items-center threePeople">
+          <img className="h-auto filter grayscale" src={threePeople} alt="" />
         </div>
       </div>
     </section>
