@@ -10,7 +10,7 @@ export default function Header() {
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user2} alt="" />
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user3} alt="" />
           <div className="flex items-center ml-2">
-            <a className="flex items-center justify-center w-10 h-10 text-xs font-bold text-black bg-gray-300 border-2 border-white rounded-full hover:bg-gray-600 dark:border-gray-800" href="#">
+            <a className="flex items-center justify-center w-10 h-10 text-xs font-bold text-white bg-red-600 border-2 border-white rounded-full hover:bg-red-600 dark:border-gray-800" href="#">
               +99
             </a>
             <span className="ml-2 text-md font-bold text-black dark:text-gray-300">Pelanggan Puas</span>
@@ -25,7 +25,7 @@ export default function Header() {
         </p>
         <div className="flex lg:justify-center justify-left  space-x-4">
           <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
-            Get started
+            Konsultasi
             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
             </svg>
@@ -34,7 +34,7 @@ export default function Header() {
             href="#"
             className="py-3 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
           >
-            Learn more
+            LegalMind
           </a>
         </div>
       </div>
