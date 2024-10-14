@@ -17,10 +17,10 @@ export default function Header() {
           </div>
         </div>
 
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We invest in the world’s potential</h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-          Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
-        </p>
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          Bersama Kami, Anda Tidak Sendirian dalam Menghadapi Masalah <span className="text-red-700">Hukum</span>
+        </h1>
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Kami menawarkan layanan hukum di berbagai bidang, termasuk hukum keluarga, hukum bisnis, hukum pidana, dan banyak lagi</p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
             Get started
