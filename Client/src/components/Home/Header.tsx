@@ -3,7 +3,7 @@ import user2 from "../../assets/img/users/user2.jpg";
 import user3 from "../../assets/img/users/user3.jpg";
 export default function Header() {
   return (
-    <section className="bg-white dark:bg-gray-900 h-screen flex items-center justify-center">
+    <section className="bg-white dark:bg-gray-900 flex items-center justify-center" style={{ height: "500px" }}>
       <div className="py-8 px-4 text-center mx-auto max-w-screen-xl">
         <div className="flex -space-x-4 rtl:space-x-reverse justify-left items-center mb-4 lg:justify-center">
           <img className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800 object-cover" src={user1} alt="" />
@@ -20,7 +20,7 @@ export default function Header() {
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-left lg:text-center">
           Bersama Kami, Anda Tidak Sendirian dalam Menghadapi Masalah <span className="text-red-700">Hukum</span>
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400 text-left lg:text-center">
+        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl lg:px-48 dark:text-gray-400 text-left lg:text-center">
           Kami menawarkan layanan hukum di berbagai bidang, termasuk hukum keluarga, hukum bisnis, hukum pidana, dan banyak lagi
         </p>
         <div className="flex lg:justify-center justify-left  space-x-4">
