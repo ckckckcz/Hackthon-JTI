@@ -3,7 +3,7 @@ import keadilanLogo from "../assets/img/keadilanBersama.png";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 shadow-md ">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
         <a href="javascript:void(0)" className="flex items-center space-x-3 rtl:space-x-revers">
           <img src={keadilanLogo} className="h-8" alt="Keadilan Logo" />
