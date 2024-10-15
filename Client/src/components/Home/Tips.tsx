@@ -16,7 +16,7 @@ export default function Tips() {
           3 Cara untuk <span className="text-red-600 dark:text-red-500">Memilih Pengacara</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 text-left">
-          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:-rotate-6 duration-500">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Riset Online</h5>
             </a>
@@ -31,7 +31,8 @@ export default function Tips() {
               </svg>
             </a>
           </div>
-          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:-rotate-6 duration-500">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rekomendasi</h5>
             </a>
@@ -46,7 +47,8 @@ export default function Tips() {
               </svg>
             </a>
           </div>
-          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+          <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:-rotate-6 duration-500">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Asosiasi Hukum</h5>
             </a>

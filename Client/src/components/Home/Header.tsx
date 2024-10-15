@@ -13,7 +13,7 @@ export default function Header() {
           }
             @media(max-width: 767px){
               .threePeople{
-                margin-top:545px;
+                margin-top:544px;
               }
             }
         `}</style>
