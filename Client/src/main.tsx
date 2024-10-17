@@ -4,13 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import "./assets/globals.css";
 import Home from "./views/Home";
-// import Login from "./views/Login";
-// import Error from "./views/error/Error";
+import Login from "./views/Login";
 
-// Initialize react-query client
 const queryClient = new QueryClient();
 
-// Define routes with createBrowserRouter
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "login",
-    // element: <Login />,
+    element: <Login />,
   },
 ]);
 

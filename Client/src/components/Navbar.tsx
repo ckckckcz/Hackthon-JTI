@@ -9,12 +9,14 @@ const Navbar: React.FC = () => {
           <img src={keadilanLogo} className="h-8" alt="Keadilan Logo" />
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button
-            type="button"
-            className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
-          >
-            Masuk
-          </button>
+          <a href="/login" className="">
+            <button
+              type="button"
+              className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
+            >
+              Masuk
+            </button>
+          </a>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
