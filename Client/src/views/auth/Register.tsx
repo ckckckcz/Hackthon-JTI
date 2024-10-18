@@ -1,5 +1,5 @@
-import keadilanBersama from "../assets/img/keadilanBersama.png";
-export default function Login() {
+import keadilanBersama from "../../assets/img/keadilanBersama.png";
+export default function Register() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-background">
       <div className="bg-card border-2 border-gray-200 rounded-xl shadow-lg p-6 w-96">
