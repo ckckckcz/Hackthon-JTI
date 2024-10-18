@@ -1,5 +1,5 @@
 import keadilanBersama from "../../assets/img/keadilanBersama.png";
-export default function Login() {
+export default function Register() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-background">
       <div className="bg-card border-2 border-gray-200 rounded-xl shadow-lg p-6 w-96">
@@ -32,18 +32,6 @@ export default function Login() {
               required
             />
           </div>
-          <div className="mb-4">
-            <label htmlFor="password" className="block mb-2 text-sm font-bold text-gray-900 dark:text-white">
-              Ulangi Kata Sandi
-            </label>
-            <input
-              type="password"
-              id="password"
-              aria-describedby="helper-text-explanation"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-500 dark:focus:border-red-500"
-              required
-            />
-          </div>
           <div className="flex items-start mb-5">
             <div className="flex items-center h-5">
               <input
@@ -67,7 +55,7 @@ export default function Login() {
         </form>
         <p className="mt-4 text-sm text-muted-foreground text-center">
           Belum Punya Akun ?{" "}
-          <a href="/daftar" className="text-primary hover:underline font-medium text-red-600">
+          <a href="#" className="text-primary hover:underline font-medium text-red-600">
             Buat Akun
           </a>
         </p>

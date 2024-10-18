@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import "./assets/globals.css";
 import Home from "./views/Home";
-import Login from "./views/auth/Login";
-import Register from "./views/auth/Register";
+import Login from "./views/auth/Register";
+import Register from "./views/auth/Login";
 
 const queryClient = new QueryClient();
 
@@ -21,12 +21,12 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "login",
+    path: "Daftar",
     element: <Login />,
   },
   {
-    path: "daftar",
-    element: <Login />,
+    path: "Login",
+    element: <Register />,
   },
 ]);
 
