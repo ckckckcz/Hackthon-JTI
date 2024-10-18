@@ -55,7 +55,7 @@ export default function Login() {
               />
             </div>
             <label htmlFor="terms" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-              Ingat Saya
+              Terms and Condition
             </label>
           </div>
           <button
@@ -66,9 +66,9 @@ export default function Login() {
           </button>
         </form>
         <p className="mt-4 text-sm text-muted-foreground text-center">
-          Belum Punya Akun ?{" "}
-          <a href="/daftar" className="text-primary hover:underline font-medium text-red-600">
-            Buat Akun
+          Sudah Punya Akun ?{" "}
+          <a href="/login" className="text-primary hover:underline font-medium text-red-600">
+            Masuk
           </a>
         </p>
       </div>

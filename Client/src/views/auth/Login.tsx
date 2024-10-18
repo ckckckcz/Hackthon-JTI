@@ -55,7 +55,7 @@ export default function Register() {
         </form>
         <p className="mt-4 text-sm text-muted-foreground text-center">
           Belum Punya Akun ?{" "}
-          <a href="#" className="text-primary hover:underline font-medium text-red-600">
+          <a href="/daftar" className="text-primary hover:underline font-medium text-red-600">
             Buat Akun
           </a>
         </p>
