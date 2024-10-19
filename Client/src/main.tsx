@@ -4,8 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import "./assets/globals.css";
 import Home from "./views/Home";
-import Login from "./views/auth/Register";
-import Register from "./views/auth/Login";
+import Login from "./views/auth/Login";
+import Register from "./views/auth/Register";
+import LegalMind from "./views/legalMind";
 
 const queryClient = new QueryClient();
 
@@ -18,14 +19,18 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "legalMind",
+        element: <LegalMind />,
+      },
     ],
   },
   {
-    path: "Daftar",
+    path: "Login",
     element: <Login />,
   },
   {
-    path: "Login",
+    path: "Daftar",
     element: <Register />,
   },
 ]);
