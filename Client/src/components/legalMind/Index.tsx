@@ -131,7 +131,7 @@ export default function Sidebar() {
               onBlur={() => setIsFocused(false)} // Set fokus menjadi false saat input tidak fokus
             />
             <button className="absolute right-4 top-1/2 transform -translate-y-1/2 p-2">
-              <svg className="w-6 h-6 text-gray-800 dark:text-white rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <svg className="w-10 h-10 text-gray-800 rounded-full dark:text-white rotate-90 p-2 hover:bg-gray-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m12 18-7 3 7-18 7 18-7-3Zm0 0v-5" />
               </svg>
             </button>
