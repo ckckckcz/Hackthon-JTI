@@ -7,10 +7,7 @@ export default function Features() {
         </h1>
         <p className="mb-6 text-md font-normal text-gray-500 lg:text-md sm:px-16 xl:px-48 dark:text-gray-400">Bagaimana kami bisa membantu Anda hari ini terkait masalah hukum?</p>
         <div className="fitur lg:grid lg:grid-cols-2 w-[600px] mx-auto grid gap-2 justify-start sm:justify-start">
-          <a
-            href="#"
-            className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mx-auto"
-          >
+          <a href="#" className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100  mx-auto">
             <div className="title flex gap-3 items-center font-bold">
               <svg className="w-10 h-10 text-blue-500 rounded-xl bg-blue-100 p-2 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -25,10 +22,7 @@ export default function Features() {
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7 7V5" />
             </svg>
           </a>
-          <a
-            href="#"
-            className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mx-auto"
-          >
+          <a href="#" className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100  mx-auto">
             <div className="title flex gap-3 items-center font-bold">
               <svg className="w-10 h-10 text-purple-500 rounded-xl  bg-purple-100 p-2 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Z" />
@@ -40,10 +34,7 @@ export default function Features() {
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7 7V5" />
             </svg>
           </a>
-          <a
-            href="#"
-            className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mx-auto"
-          >
+          <a href="#" className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100  mx-auto">
             <div className="title flex gap-3 items-center font-bold">
               <svg className="w-10 h-10 text-green-500 rounded-xl bg-green-100 p-2 dark:text-whit" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -58,10 +49,7 @@ export default function Features() {
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7 7V5" />
             </svg>
           </a>
-          <a
-            href="#"
-            className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 mx-auto"
-          >
+          <a href="#" className="inline-flex lg:w-[290px] w-[320px] items-center justify-between px-5 py-3 text-base font-medium text-center text-black border border-gray-200 bg-white rounded-xl hover:bg-gray-100  mx-auto">
             <div className="title flex gap-3 items-center font-bold">
               <svg className="w-10 h-10 text-red-500 rounded-xl bg-red-100 p-2 dark:text-whit" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M13.5 2c-.178 0-.356.013-.492.022l-.074.005a1 1 0 0 0-.934.998V11a1 1 0 0 0 1 1h7.975a1 1 0 0 0 .998-.934l.005-.074A7.04 7.04 0 0 0 22 10.5 8.5 8.5 0 0 0 13.5 2Z" />
