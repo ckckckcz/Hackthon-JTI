@@ -1,6 +1,5 @@
 import User from "./components/User";
 import keadilanBersama from "../../assets/img/keadilanBersama.png";
-import Features from "./components/Features";
 import Chat from "./components/Chat";
 export default function Sidebar() {
   return (
@@ -118,7 +117,6 @@ export default function Sidebar() {
           </ul>
         </div>
       </aside>
-      <Features />
       <Chat />
     </>
   );
