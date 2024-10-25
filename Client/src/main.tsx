@@ -7,13 +7,14 @@ import Home from "./views/Home";
 import Login from "./views/auth/Login";
 import Register from "./views/auth/Register";
 import LegalMind from "./views/legalMind";
+import Error from "./views/Error";
 
 const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
     path: "/",
-    // errorElement: <Error />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
