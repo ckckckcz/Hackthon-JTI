@@ -5,11 +5,22 @@ export default function Chat() {
   const [isFocused, setIsFocused] = useState(false);
   const [inputMessage, setInputMessage] = useState("");
   const [messages, setMessages] = useState<string[]>([]);
+  const [charCount, setCharCount] = useState(0);
+  const maxCharLimit = 3000;
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newMessage = e.target.value;
+    if (newMessage.length <= maxCharLimit) {
+      setInputMessage(newMessage);
+      setCharCount(newMessage.length);
+    }
+  };
 
   const sendMessage = () => {
-    if (inputMessage.trim()) {
+    if (inputMessage.trim() && charCount <= maxCharLimit) {
       setMessages([inputMessage, ...messages]);
       setInputMessage("");
+      setCharCount(0);
     }
   };
 
@@ -18,22 +29,21 @@ export default function Chat() {
       {messages.length === 0 && <Features />}
       <div className="inputMessage lg:pr-72 lg:pl-72 p-5 sm:ml-64 text-left lg:text-center lg:mt-[350px] mt-52">
         {/* Tampilkan pesan yang dikirim di bagian atas */}
-        <div className="mb-4">
+        <div className="">
           {messages.map((message, index) => (
             <div key={index} className="text-left p-2 bg-gray-200 rounded-lg mb-2">
               {message}
             </div>
           ))}
         </div>
-
-        <div className={`flex flex-col bg-background rounded-2xl shadow-lg border-2 ${isFocused ? "border-red-600" : "border-gray-200"}`}>
+        <div className={`flex flex-col bg-background rounded-2xl shadow-lg border-2 buatNgirimPesan ${isFocused ? "border-red-600" : "border-gray-200"}`}>
           <div className="relative p-3 font-medium">
             <input
               type="text"
               placeholder="Tulis Pertanyaan Kamu Disini"
               className="w-full border border-white focus:border-transparent focus:ring-0"
               value={inputMessage}
-              onChange={(e) => setInputMessage(e.target.value)}
+              onChange={handleInputChange}
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
             />
@@ -64,7 +74,7 @@ export default function Chat() {
                 <span className="ml-2">Suara</span>
               </button>
             </div>
-            <span className="text-muted-foreground font-medium text-md">0 / 3,000</span>
+            <span className={`text-md font-medium ${charCount > maxCharLimit ? "text-red-600" : "text-muted-foreground"}`}>{charCount} / 3,000</span>
           </div>
         </div>
         <div className="warningAi mt-4 text-center">
