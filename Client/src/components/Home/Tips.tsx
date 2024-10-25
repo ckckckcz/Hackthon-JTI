@@ -15,7 +15,7 @@ export default function Tips() {
         <h1 className="mt-10 mb-12 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           3 Cara untuk <span className="text-red-600 dark:text-red-500">Memilih Pengacara</span>
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 text-left">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 text-left mb-14">
           <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:-rotate-6 duration-500">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Riset Online</h5>
